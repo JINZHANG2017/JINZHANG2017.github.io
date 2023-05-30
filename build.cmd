@@ -1,0 +1,1 @@
+docker run --rm -v /D/Users/zhangjin86/Documents/jin.github.io:/srv/jekyll -v /D/Users/zhangjin86/Documents/jin.github.io/_site:/srv/jekyll/_site jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build"
